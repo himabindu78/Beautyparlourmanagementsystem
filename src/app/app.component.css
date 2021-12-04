@@ -1,0 +1,35 @@
+/*body{
+    background-image: url('../assets/image/imag1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}*/
+img{
+    vertical-align: middle;
+   
+}
+h1{
+    color:red;
+    font-size: x-large;
+    font-family: 'Forte';
+    text-align: center;
+    text-decoration: none;
+}
+.hg{
+   color: green;
+}
+.navbar-nav .nav-item .nav-link adminlogin{
+    float: right;
+    margin-right: 50px;
+    padding-right: 100px;
+}
+.container-fluid{
+    padding: 1%;
+    margin-bottom: 0%;
+}
+li a{
+    color: white;
+}
+.navbar{
+    background-color: rgb(248, 12, 228);
+}

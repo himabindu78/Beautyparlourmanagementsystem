@@ -1,0 +1,25 @@
+body{
+    background: url("../../assets/images/contactimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: fixed;
+}
+.container{
+    color:rgb(10, 240, 113);
+    margin-top: 2%;
+}
+/*iframe{
+    float: right;
+}*/
+body{
+   background-color: blanchedalmond;
+}
+/*.img1{
+float :left;
+}*/
+/*.form-group
+{
+    float: left;
+}*/

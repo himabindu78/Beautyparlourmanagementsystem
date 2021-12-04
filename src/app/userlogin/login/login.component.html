@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <br>
+    <h2 routerLink="/userlogin">Logout</h2>
+    <div class="logform">
+        <h1>Book Appointment</h1>
+    </div>
+    <div class="main">
+    <form  #ref="ngForm" (ngSubmit)="sendData(ref.value)">
+        <label class="name">Select Service</label>
+        <div class="form-group input-group">
+            <div class="input-group-prepend"></div>
+            <select class="form-control" name="Service" ngModel>
+                <option>~Select Service~ </option>
+                <option>O3 Facial</option>
+                <option>Fruit Facial</option>
+                <option>Charcol Facial </option>
+                <option>Deluxe Menicure</option>
+                <option>Normal Pedicure</option>
+                <option>U-Shape Hair Cut</option>
+                <option>Layer Haircut</option> 
+                <option>Rebonding</option>
+                <option>Local Hair Color(Full)</option>
+                <option>Hot Oil Manicure</option>
+                <option>Paraffin Wax Manicure</option>
+                <option>Brazillian Manicure</option>
+                <option>Basic Manicure</option>
+                <option>Acrylic Manicure</option>
+                <option>3D Manicure</option>
+                <option>Shellac Manicure</option>
+                <option>Full Makeup</option>
+            </select>
+        </div>
+        <div>
+        <label for="dat" class="name">AppointmentDate</label>
+        <input type="date" class="form-control" name="adat" id="dat" ngModel>
+    </div><br>
+    <div>
+        <label for="tim" class="name">AppointmentTime</label>
+        <input type="time" class="form-control" name="atim" id="tim" ngModel>
+    </div><br>
+    <button type="submit" class="name">Submit</button>
+    </form>
+   </div>       
+   <br>
+   <br>
+</body>
+</html>

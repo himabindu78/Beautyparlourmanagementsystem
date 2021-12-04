@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <div class="form">
+                <h2>Login</h2>
+                <form #ref="ngForm" (ngSubmit)="sendData(ref.value)">
+                    <div class="inputBx">
+                        <input type="text" name="un" class="form-control" placeholder="Username" ngModel>
+                        <img src="./assets/images/useloginimg.png" width="30px" height="30px">
+                    </div>
+                    <div class="inputBx">
+                        <input type="password"  name="pw" class="form-control" placeholder="password" ngModel>
+                        <img src="./assets/images/passimg.png" width="30px" height="30px">
+                    </div>
+                    <label class="remeber">
+                        <input type="checkbox">Remeber Me</label>
+                    <div class="inputBx">
+                        <input type="submit" routerLink="login" value="Login">
+                    </div>
+                </form>
+                <p>Forget <a href="#">Password</a></p>
+                <p><a  routerLink="creataccount" >Creat New Account</a></p>
+            </div>
+        </div>
+    </section>
+   <!-- <app-creataccount></app-creataccount>-->
+    <router-outlet></router-outlet>
+</body>
+
+</html>

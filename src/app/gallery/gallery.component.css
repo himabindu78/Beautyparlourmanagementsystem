@@ -1,0 +1,10 @@
+body {
+  font-family: "Poppins", sans-serif;
+    background: pink;
+  }
+  
+  .banner {
+    background: #a770ef;
+    background: -webkit-linear-gradient(to right, #043808, #0aa137, #fdb99b);
+    background: linear-gradient(to right, #116933, #cf8bf3, #cc460c);
+  }

@@ -1,0 +1,47 @@
+/*body{
+    background-image: url("../assets/images/servicebimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: 0% 0%;
+    background-attachment: absolute;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+}*/
+body{
+    background-color: rgba(248, 11, 157, 0.473);
+    font-family: "Poppins", sans-serif;
+}
+p{
+    color:red;
+}
+h5{
+    color: rgb(58, 10, 77);
+}
+/*body{
+    background-image: url("../../assets/images/backservi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}*/
+.card-deck > .card{
+    height: 350px;
+    cursor:pointer;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-deck .bridal
+{
+    background-image: url("../../assets/images/bride.jpg");
+}
+.card-deck .face{
+    background-image: url("../../assets/images/Facial1.jpg");
+}
+.card-deck .hair-style{
+    background-image: url("../../assets/images/hg.jpg");
+}
+.card-deck .body-massage{
+    background-image: url("../../assets/images/bodymassageimg.jpg");
+}

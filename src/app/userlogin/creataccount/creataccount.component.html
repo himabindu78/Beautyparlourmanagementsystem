@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="regform">
+        <h1> Registration Form</h1>
+    </div>
+    <div class="main">
+        <form #ref="ngForm" (ngSubmit)="sendData(ref.value)">
+            <div>
+                <label for="name" class="name">First Name</label>
+                <input type="text" class="form-control" placeholder="Enter FirstName" name="fname" id="name" ngModel>
+                <label for="name"class="name">Last Name</label>
+                <input type="text" class="form-control" placeholder="Enter LastName" name="lastn" id="name" ngModel>
+            <div>     
+            <label for="email" class="name">Email</label>
+            <input type="text" class="form-control" placeholder="Enter Email" name="email"id="email" ngModel>
+        </div>  
+        <div>
+            <label for="pw" class="name">Password</label>
+            <input type="password" class="form-control" placeholder="Enter Password" name="pw" id="pw" ngModel>
+        </div>
+        <div>
+         <label for="ph" class="name">PhoneNumber</label>&nbsp;
+         <input class="code" type="text" name="area_code" id="ph" value="+91" ngModel>&nbsp;
+         <input class="Phonen" type="text" name="pn" placeholder="Enter PhoneNumber" ngModel>
+        </div>
+        <div>
+            <label for="gn" class="radio">Gender</label>&nbsp;
+            <input type="radio" name="gen" id="gn" ngModel>Female &nbsp;
+            <input type="radio" name="gen" id="gn" ngModel>Male
+           </div>
+           <div>
+               <label for="im" class="img">Image</label>&nbsp;
+               <input type="file" class="form-control" name="img" id="im" ngModel>
+           </div>
+    </div>
+    <br>
+        <h2 id="coustomer">Are You beginner</h2>
+        <label class="radio">
+            <input class="radio-one" type="radio" checked="checked" name="" ngModel>
+            <span class="checkmark"></span>
+            Yes
+        </label>
+      <!--  <label class="radio">
+            <input class="radio-one" type="radio" checked="checked" name="">
+            <span class="checkmark"></span>
+            No
+        </label>-->
+    
+        <br>
+        <button type="submit" routerLink="/userlogin">Register</button>
+        </form>
+    </div>
+    <br>
+    <br>
+</body>
+</html>
